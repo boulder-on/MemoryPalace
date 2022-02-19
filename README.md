@@ -26,7 +26,7 @@ Compression is done using the deflate algorithm that is standard to ZIP files.
 
 ``` Java
     var doubleList = new ListOfDouble(1000);
-    for (int n = 0; n < 10_000_000count; ++n)
+    for (int n = 0; n < 10_000_000; ++n)
         doubleList.add(n);
 
     var value = doubleList.get(5_000_000);
